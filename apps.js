@@ -21,12 +21,28 @@
 
 //8&9  
 
-function favMovie(name = 'world', movie = 'The Room')  {
-    console.log(`My name is ${name} and my favorite movie is ${movie}.`);
-}
+//function favMovie(name = 'world', movie = 'The Room')  {
+//    console.log(`My name is ${name} and my favorite movie is ${movie}.`);
+//}
 
-favMovie('John', 'Gladiator');
+//favMovie('John', 'Gladiator');
 
 //11 Yes, I get the defaults when I pass nothing and when I pass it with values of John and my favorite movie, I get the correct values in console.
 
+//Arrow Functions
+
+//1 
+
+
+//let favMovie = (name = 'world', movie = 'The Room') =>  
+//console.log(`My name is ${name} and my favorite movie is ${movie}.`);
+    
+//2&3 Message is still logged in console.
+    
+//favMovie();
+    
+//4  I get the correct message in console with no errors
+let favMovie = (name = 'world', movie = 'The Room') => console.log(`My name is ${name} and my favorite movie is ${movie}.`);
+
+favMovie();
 
