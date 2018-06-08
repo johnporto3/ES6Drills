@@ -42,7 +42,33 @@
 //favMovie();
     
 //4  I get the correct message in console with no errors
-let favMovie = (name = 'world', movie = 'The Room') => console.log(`My name is ${name} and my favorite movie is ${movie}.`);
+//let favMovie = (name = 'world', movie = 'The Room') => console.log(`My name is ${name} and my favorite movie is ${movie}.`);
 
-favMovie();
+//favMovie();
 
+//5 create a new arrow function
+
+
+
+
+
+
+//let getFirstName = 'John'; () => {
+//    console.log(getFirstName);
+//}
+
+//}
+//let name = getFirstName.split(" ",1); => console.log(name)
+
+
+//Spread Syntax
+//1, 2, 3, 4 - In console, I get the sentence: My name is John, I live in the OC and my favorite food is pizza.
+
+let yum = (name, location, favFood) => console.log(`My name is ${name}, I live in ${location} and my favorite food is ${favFood}.`);
+
+let values = ['John', 'The OC', 'pizza'];
+
+yum(...values);
+
+
+//
