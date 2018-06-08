@@ -64,11 +64,23 @@
 //Spread Syntax
 //1, 2, 3, 4 - In console, I get the sentence: My name is John, I live in the OC and my favorite food is pizza.
 
-let yum = (name, location, favFood) => console.log(`My name is ${name}, I live in ${location} and my favorite food is ${favFood}.`);
+//let yum = (name, location, favFood) => console.log(`My name is ${name}, I live in ${location} and my favorite food is ${favFood}.`);
 
-let values = ['John', 'The OC', 'pizza'];
+//let values = ['John', 'The OC', 'pizza'];
 
-yum(...values);
+//yum(...values);
 
 
-//
+//5
+
+//let name = 'John';
+
+//6, 7, 8    Still working  
+
+function tennisTeam (){
+
+}
+
+tennisTeam(...enteredValues);
+
+let enteredValues = ['Sam', 'Thao', 'Linda', 'Brad'];
